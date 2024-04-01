@@ -2,10 +2,14 @@
 export default {
   content: [],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        jelly: "Shadows Into Light Two",
+      },
+    },
   },
   daisyui: {
-    themes: ["light", "dark", "pastel"],
+    themes: ["light", "dark", "pastel", "fantasy"],
   },
   plugins: [require("daisyui")],
 };
