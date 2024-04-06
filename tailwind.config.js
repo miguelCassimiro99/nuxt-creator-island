@@ -5,6 +5,11 @@ export default {
     extend: {
       fontFamily: {
         jelly: "Shadows Into Light Two",
+        coming: "Coming Soon",
+        raleway: "Raleway",
+      },
+      backgroundImage: {
+        hero: "url('/hero/q-tempero-hero.jpeg')",
       },
     },
   },
